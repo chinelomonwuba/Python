@@ -1,0 +1,13 @@
+L1=['apple', 'ball', 'camera', 'dog', 'elephant']
+#initializes the list
+print("L1=", L1)
+#prints out the list
+x =input("Enter a number between 0 and 5: ")
+if x in {0, 1, 2, 3, 4}:
+  print ("The element of L1 is", L1[x])
+  #checks if n is in the proper range and prints it
+vowels = ('a','e','i','o','u','A','E','I','O','U')
+if L1[x].endswith(vowels):
+  #checks if the last character of the element is a vowel
+print("The selected element in uppercase: ", L1[x].upper)
+#Prints the element in uppercase if it ends with a vowel
