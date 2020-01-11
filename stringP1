@@ -1,0 +1,8 @@
+str1 = input("Enter a string with at least 7 characters: ") #prompts the user to input a string with at least 7 characters
+print(str1) #assign the string to a variable str1 and print str1
+i= str1
+str1 = str1[1:] + str1[0] #update the value of str1 so that the first character from the current value of str1 is removed and added to the end.
+while str1 != i:
+    print(str1)
+    str1 = str1[1:] + str1[0]
+print(str1) #print the updated str1.
