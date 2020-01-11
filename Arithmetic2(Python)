@@ -1,0 +1,16 @@
+print("\nQuestion 2:")
+item1=39.75
+item2=65.50
+sum=item1+item2
+tax=1.07
+print("The total cost  of item 1 after taxes is:$",round(item1*tax,2))
+if item1 <= item2:
+   item1=item1*0.5
+if item1 > item2:
+    item2=item2*0.5
+
+print("The price of item 1 & 2 when bought together is:$", round((item1+item2)*tax,2))
+print("Ann saves ",round(sum-(item1+item2),2) ,"when she buys item 1 & item 2 before tax")
+# Worked out the cost of Ann's purchases if she does not use the discount
+# Worked out the cost if she uses the discount
+# Worked out her savings when she uses the discount
