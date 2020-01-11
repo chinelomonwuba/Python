@@ -1,0 +1,17 @@
+list1= [['Rose', 'Daisy'], 7, 0, 5.5, [1, 22, 2.45, 3, 6, 5.8]]
+print(list1)
+#defining a list and printing it
+
+listLength=len(list1)
+print("The length of the list is", listLength)
+#length of the list
+
+print("The 1st character of the 1st string in the 1st item of list1 is:", list1[0][0][0])
+#1st character of the 1st string in the 1st item of list1 
+
+print("The sum of last 4 numbers in the last element of list1 is:", sum(list1[4][-4:]))
+#sum of last 4 numbers in the last element of list1
+
+list1.append(['apple', 'pear', 'grape'])
+print("The updated list1 is:", list1)
+#updated list
