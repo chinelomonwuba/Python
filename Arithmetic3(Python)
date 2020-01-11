@@ -1,0 +1,12 @@
+print("\nQuestion 3: ")
+u=15
+a=2.5
+t=18
+v=u+(a*t)
+print("The final velocity of the object is",v,"m/s")
+u=0
+v=100
+a=2.5
+t=(v-u)/a
+print("It will take",t, "secs to reach a velocity of 100m/s")
+# Calculated and printed the result of the operation of final velocity
