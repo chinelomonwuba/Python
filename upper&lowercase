@@ -1,0 +1,17 @@
+str1=input("Enter an alphabetic string: ")
+# Asks the user to enter an alphabetic string
+print("You entered ", str1)
+if str1.isalpha():
+    print(str1,"is a valid string")
+    # string contains only alphabets
+    if str1.capitalize():
+        print(str1, "in upper case is", str1.upper())
+        # if the first character is uppercase, print entire string in lowercase
+    else:
+        print(str1, "in lower case is", str1.lower())
+      # if the first character is lowercase, print entire string in lowercase
+else:
+  print(str1, "is not a valid srring")
+  # if inputs don't pass the test, this is printed)
+x=str1.center (25, "#")
+print (x)
