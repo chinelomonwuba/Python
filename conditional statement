@@ -1,0 +1,16 @@
+str1=input("Enter an alphabetic string with only uppercase letters ")
+# User enters the string of choice
+print("You entered ", str1)
+# Prints the user's input
+if str1[:2] >= 'A' and str1[:2] <= 'HM':
+  print(str1, "belongs to group 1")
+  # checks if the first two characters belong in group 1 and prints result
+elif str1[:2] >= 'HN' and str1[:2] <= 'KI':
+    print(str1, "belongs to group 2")
+    # checks if the first two characters belong in group 2 and prints result
+elif str1[:2] >= 'KJ' and str1[:2] <= 'TZ':
+    print(str1, "belongs to group 3")
+    # checks if the first two characters belong in group 3 and prints result
+else:
+  print(str1, "belongs to group 4")
+  #prints statement if string fails all checks
