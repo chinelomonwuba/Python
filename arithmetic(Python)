@@ -1,0 +1,10 @@
+print("Question 1")
+x=-7.58
+y=24
+z=6.5678
+print("The values of x,y and z respectively are:", x,y,z)
+numerator=(x**3)+y*(z+30)
+denom=(y-x)-z
+result=(numerator/denom)
+print("The result of the arithmetic expression", result)
+# Initialized 3 variables, evaluate an arithmetic expression and assign the result to a variables
